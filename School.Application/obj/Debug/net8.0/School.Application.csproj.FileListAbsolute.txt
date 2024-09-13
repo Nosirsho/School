@@ -1,0 +1,15 @@
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Application.deps.json
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Application.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Application.pdb
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Core.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Core.pdb
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.csproj.AssemblyReference.cache
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfoInputs.cache
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfo.cs
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.csproj.CoreCompileInputs.cache
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.A.0288516A.Up2Date
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\refint\School.Application.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.pdb
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\ref\School.Application.dll
