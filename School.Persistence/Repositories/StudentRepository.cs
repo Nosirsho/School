@@ -2,7 +2,7 @@
 using School.Core.Model;
 using School.Core.Stores;
 
-namespace School.Persistence.Repository;
+namespace School.Persistence.Repositories;
 
 public class StudentRepository : IStudentStore
 {

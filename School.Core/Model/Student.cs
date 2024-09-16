@@ -23,4 +23,5 @@ public class Student
     public string LastName { get; set; }
     public string MiddleName { get; set; }
     public DateTime BirthDate { get; set; }
+    public List<Parent> Parents { get; set; } = [];
 }

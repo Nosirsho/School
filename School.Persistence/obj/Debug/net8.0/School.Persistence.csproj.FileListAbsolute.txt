@@ -13,3 +13,21 @@ C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\obj\Debug\net8.0\
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\obj\Debug\net8.0\refint\School.Persistence.dll
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.pdb
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\obj\Debug\net8.0\ref\School.Persistence.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Persistence.deps.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Persistence.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Persistence.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Core.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Core.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.csproj.AssemblyReference.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.AssemblyInfoInputs.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.AssemblyInfo.cs
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.sourcelink.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.P.BCCDB1DD.Up2Date
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\refint\School.Persistence.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\ref\School.Persistence.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Persistence.runtimeconfig.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.genruntimeconfig.cache

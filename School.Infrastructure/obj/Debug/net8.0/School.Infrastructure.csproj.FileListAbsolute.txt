@@ -15,3 +15,21 @@ C:\Users\N_Kholmamadov\RiderProjects\School\School.Infrastructure\obj\Debug\net8
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\refint\School.Infrastructure.dll
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.pdb
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\ref\School.Infrastructure.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Infrastructure.deps.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Infrastructure.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Infrastructure.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Application.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Core.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Application.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\bin\Debug\net8.0\School.Core.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.AssemblyInfo.cs
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.sourcelink.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.I.43F417B3.Up2Date
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\refint\School.Infrastructure.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\ref\School.Infrastructure.dll

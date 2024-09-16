@@ -13,3 +13,19 @@ C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\refint\School.Application.dll
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.pdb
 C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\ref\School.Application.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Application.deps.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Application.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Application.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Core.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\bin\Debug\net8.0\School.Core.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.csproj.AssemblyReference.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfoInputs.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfo.cs
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.sourcelink.json
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.A.0288516A.Up2Date
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\refint\School.Application.dll
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.pdb
+C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\ref\School.Application.dll

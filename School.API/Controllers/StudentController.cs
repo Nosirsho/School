@@ -45,8 +45,8 @@ public class StudentController : ControllerBase
     {
         var student = new Student(
             request.FirstName,
-            request.MiddleName,
             request.LastName,
+            request.MiddleName,
             request.BirthDate
             );
         await _studentService.Create(student);
@@ -62,10 +62,8 @@ public class StudentController : ControllerBase
             request.MiddleName,
             request.LastName,
             request.BirthDate
-            );
+        );
         student = await _studentService.Update(student);
         return Ok(student);
     }
-    
-    
 }
