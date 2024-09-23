@@ -31,3 +31,6 @@ C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\Sch
 C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\ref\School.Persistence.dll
 C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Persistence.runtimeconfig.json
 C:\Users\HUAWEI D15\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.genruntimeconfig.cache
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\bin\Debug\net8.0\School.Persistence.runtimeconfig.json
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.sourcelink.json
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Persistence\obj\Debug\net8.0\School.Persistence.genruntimeconfig.cache

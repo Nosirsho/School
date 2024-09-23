@@ -29,3 +29,4 @@ C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\Sch
 C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\refint\School.Application.dll
 C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.pdb
 C:\Users\HUAWEI D15\RiderProjects\School\School.Application\obj\Debug\net8.0\ref\School.Application.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Application\obj\Debug\net8.0\School.Application.sourcelink.json

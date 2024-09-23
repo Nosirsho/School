@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using Microsoft.AspNetCore.Mvc;
 using School.API.Contracts.Student;
 using School.Application.Services;
 using School.Core.Model;
@@ -11,11 +13,13 @@ namespace School.API.Controllers;
 public class StudentController : ControllerBase
 {
     private readonly StudentService _studentService;
+    private readonly IValidator<CreateStudentRequest> _validator;
     private readonly SchoolDbContext _schoolDbContext;
 
-    public StudentController(StudentService studentService, SchoolDbContext schoolDbContext)
+    public StudentController(StudentService studentService, IValidator<CreateStudentRequest> validator, SchoolDbContext schoolDbContext)
     {
         _studentService = studentService;
+        _validator = validator;
         _schoolDbContext = schoolDbContext;
     }
 
@@ -43,6 +47,12 @@ public class StudentController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Student>> Post(CreateStudentRequest request)
     {
+        ValidationResult validateResult =await _validator.ValidateAsync(request);
+        if (!validateResult.IsValid)
+        {
+            return BadRequest(validateResult.Errors);
+        }
+        
         var student = new Student(
             request.FirstName,
             request.LastName,

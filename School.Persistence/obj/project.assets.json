@@ -3254,19 +3254,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HUAWEI D15\\.nuget\\packages\\": {}
+    "C:\\Users\\N_Kholmamadov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI D15\\RiderProjects\\School\\School.Persistence\\School.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\N_Kholmamadov\\RiderProjects\\School\\School.Persistence\\School.Persistence.csproj",
       "projectName": "School.Persistence",
-      "projectPath": "C:\\Users\\HUAWEI D15\\RiderProjects\\School\\School.Persistence\\School.Persistence.csproj",
-      "packagesPath": "C:\\Users\\HUAWEI D15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI D15\\RiderProjects\\School\\School.Persistence\\obj\\",
+      "projectPath": "C:\\Users\\N_Kholmamadov\\RiderProjects\\School\\School.Persistence\\School.Persistence.csproj",
+      "packagesPath": "C:\\Users\\N_Kholmamadov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\N_Kholmamadov\\RiderProjects\\School\\School.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HUAWEI D15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\N_Kholmamadov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3274,14 +3274,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\HUAWEI D15\\RiderProjects\\School\\School.Core\\School.Core.csproj": {
-              "projectPath": "C:\\Users\\HUAWEI D15\\RiderProjects\\School\\School.Core\\School.Core.csproj"
+            "C:\\Users\\N_Kholmamadov\\RiderProjects\\School\\School.Core\\School.Core.csproj": {
+              "projectPath": "C:\\Users\\N_Kholmamadov\\RiderProjects\\School\\School.Core\\School.Core.csproj"
             }
           }
         }
@@ -3336,16 +3337,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

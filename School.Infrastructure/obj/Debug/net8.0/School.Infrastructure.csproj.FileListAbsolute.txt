@@ -33,3 +33,4 @@ C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\
 C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\refint\School.Infrastructure.dll
 C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.pdb
 C:\Users\HUAWEI D15\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\ref\School.Infrastructure.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.Infrastructure\obj\Debug\net8.0\School.Infrastructure.sourcelink.json

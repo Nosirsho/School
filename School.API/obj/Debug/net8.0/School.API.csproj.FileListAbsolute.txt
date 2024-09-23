@@ -111,3 +111,7 @@ C:\Users\HUAWEI D15\RiderProjects\School\School.API\obj\Debug\net8.0\refint\Scho
 C:\Users\HUAWEI D15\RiderProjects\School\School.API\obj\Debug\net8.0\School.API.pdb
 C:\Users\HUAWEI D15\RiderProjects\School\School.API\obj\Debug\net8.0\School.API.genruntimeconfig.cache
 C:\Users\HUAWEI D15\RiderProjects\School\School.API\obj\Debug\net8.0\ref\School.API.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.API\obj\Debug\net8.0\School.API.sourcelink.json
+C:\Users\N_Kholmamadov\RiderProjects\School\School.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\N_Kholmamadov\RiderProjects\School\School.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -39,5 +39,6 @@ public class ParentRepository : IParentStore
     public async Task Add(Parent parent)
     {
         await _schoolDbContext.Parents.AddAsync(parent);
+        await _schoolDbContext.SaveChangesAsync();
     }
 }
