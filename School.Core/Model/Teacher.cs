@@ -32,6 +32,4 @@ public class Teacher
     public DateTime BirthDate { get; set; }
     
     public Sex Sex { get; set; } = Sex.Man;
-    
-    
 }

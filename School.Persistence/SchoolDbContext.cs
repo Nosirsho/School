@@ -28,4 +28,5 @@ public class SchoolDbContext: DbContext
     public DbSet<Student> Students => Set<Student>();
     public DbSet<Parent> Parents => Set<Parent>();
     public DbSet<Teacher> Teachers => Set<Teacher>();
+    public DbSet<GradeLevel> GradeLevels => Set<GradeLevel>();
 }

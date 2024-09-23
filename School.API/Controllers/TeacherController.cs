@@ -76,4 +76,6 @@ public class TeacherController : ControllerBase
         var curParent = await _teacherService.Update(teacher);
         return Ok(curParent);
     }
+    
+    
 }
