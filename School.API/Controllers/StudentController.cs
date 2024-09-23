@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using School.API.Contracts.Student;
 using School.Application.Services;
@@ -13,13 +12,19 @@ namespace School.API.Controllers;
 public class StudentController : ControllerBase
 {
     private readonly StudentService _studentService;
-    private readonly IValidator<CreateStudentRequest> _validator;
+    private readonly IValidator<CreateStudentRequest> _createStudentValidator;
+    private readonly IValidator<UpdateStudentRequest> _updateStudentValidator;
     private readonly SchoolDbContext _schoolDbContext;
 
-    public StudentController(StudentService studentService, IValidator<CreateStudentRequest> validator, SchoolDbContext schoolDbContext)
+    public StudentController(
+        StudentService studentService, 
+        IValidator<CreateStudentRequest> createStudentValidator,
+        IValidator<UpdateStudentRequest> updateStudentValidator, 
+        SchoolDbContext schoolDbContext)
     {
         _studentService = studentService;
-        _validator = validator;
+        _createStudentValidator = createStudentValidator;
+        _updateStudentValidator = updateStudentValidator;
         _schoolDbContext = schoolDbContext;
     }
 
@@ -47,7 +52,7 @@ public class StudentController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Student>> Post(CreateStudentRequest request)
     {
-        ValidationResult validateResult =await _validator.ValidateAsync(request);
+        var validateResult =await _createStudentValidator.ValidateAsync(request);
         if (!validateResult.IsValid)
         {
             return BadRequest(validateResult.Errors);
@@ -57,7 +62,8 @@ public class StudentController : ControllerBase
             request.FirstName,
             request.LastName,
             request.MiddleName,
-            request.BirthDate
+            request.BirthDate,
+            request.Sex
             );
         await _studentService.Create(student);
         return Ok();
@@ -66,12 +72,19 @@ public class StudentController : ControllerBase
     [HttpPut("{id:guid}")]
     public async Task<ActionResult<Student>> Put(Guid id, UpdateStudentRequest request)
     {
+        var validateResult = await _updateStudentValidator.ValidateAsync(request);
+        if (!validateResult.IsValid)
+        {
+            return BadRequest(validateResult.Errors);
+        }
+
         var student = new Student(
             request.Id,
             request.FirstName,
             request.MiddleName,
             request.LastName,
-            request.BirthDate
+            request.BirthDate,
+            request.Sex
         );
         student = await _studentService.Update(student);
         return Ok(student);

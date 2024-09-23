@@ -1,3 +1,5 @@
-﻿namespace School.API.Contracts.Student;
+﻿using School.Core.Model;
 
-public record CreateStudentRequest(string FirstName, string LastName, string MiddleName, DateTime BirthDate);
+namespace School.API.Contracts.Student;
+
+public record CreateStudentRequest(string FirstName, string LastName, string MiddleName, DateTime BirthDate, Sex Sex);

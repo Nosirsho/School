@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Mvc;
 using School.API.Contracts.Parent;
 using School.Application.Services;
 using School.Core.Model;
@@ -9,10 +10,14 @@ namespace School.API.Controllers;
 public class ParentController : ControllerBase
 {
     private readonly ParentService _parentService;
+    private readonly IValidator<CreateParentRequest> _createParentValidator;
+    private readonly IValidator<UpdateParentRequest> _updateParentValidator;
 
-    public ParentController(ParentService parentService)
+    public ParentController(ParentService parentService, IValidator<CreateParentRequest> createParentValidator, IValidator<UpdateParentRequest> updateParentValidator)
     {
         _parentService = parentService;
+        _createParentValidator = createParentValidator;
+        _updateParentValidator = updateParentValidator;
     }
 
     [HttpGet("{id:guid}")]
@@ -30,8 +35,14 @@ public class ParentController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> Create(ParentCreateRequest request)
+    public async Task<ActionResult> Create(CreateParentRequest request)
     {
+        var validatorResult = _createParentValidator.Validate(request);
+        if (!validatorResult.IsValid)
+        {
+            return BadRequest(validatorResult.Errors);
+        }
+
         var parent = new Parent(
             request.FirstName, 
             request.MiddleName, 
@@ -44,8 +55,14 @@ public class ParentController : ControllerBase
     }
 
     [HttpPut("{id:guid}")]
-    public async Task<ActionResult<Parent>> Update(Guid id, ParentUpdateRequest request)
+    public async Task<ActionResult<Parent>> Update(Guid id, UpdateParentRequest request)
     {
+        var validatorResult = _updateParentValidator.Validate(request);
+        if (!validatorResult.IsValid)
+        {
+            return BadRequest(validatorResult.Errors);
+        }
+
         var parent = new Parent(
             request.Id,
             request.FirstName, 

@@ -21,9 +21,11 @@ public class SchoolDbContext: DbContext
     {
         modelBuilder.ApplyConfiguration(new StudentConfiguration());
         modelBuilder.ApplyConfiguration(new ParentConfiguration());
+        modelBuilder.ApplyConfiguration(new TeacherConfiguration());
         base.OnModelCreating(modelBuilder);
     }
 
     public DbSet<Student> Students => Set<Student>();
     public DbSet<Parent> Parents => Set<Parent>();
+    public DbSet<Teacher> Teachers => Set<Teacher>();
 }

@@ -17,16 +17,3 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
 
     }
 }
-
-public class ParentConfiguration : IEntityTypeConfiguration<Parent>
-{
-    public void Configure(EntityTypeBuilder<Parent> builder)
-    {
-        builder.HasKey(x => x.Id);
-
-        builder.HasOne(s => s.Student)
-            .WithMany(s => s.Parents)
-            .HasForeignKey(s => s.StudentId);
-
-    }
-}
